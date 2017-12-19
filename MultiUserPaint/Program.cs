@@ -11,7 +11,7 @@ using System.Threading;
 using System.Threading.Tasks;
 
 namespace MultiUserPaint
-{
+{ 
     class Program
     {
         public static Dictionary<IWebSocketConnection, List<Color>> Users = new Dictionary<IWebSocketConnection, List<Color>>();
